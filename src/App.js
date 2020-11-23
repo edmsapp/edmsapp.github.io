@@ -3,14 +3,14 @@ import "styles/globalStyles.css";
 import React from "react";
 import { css } from "styled-components/macro"; //eslint-disable-line
 import MainPage from "pages/index.js";
-import AboutPage from "pages/AboutUs.js";
-import BlogPage from "pages/BlogIndex.js";
-import PricingPage from "pages/Pricing.js";
-import ContactPage from "pages/ContactUs.js";
-import LoginPage from "pages/Login.js";
-import SignupPage from "pages/Signup.js";
-import PrivacyPage from "pages/PrivacyPolicy.js";
-import TermsPage from "pages/TermsOfService.js";
+import AboutPage from "components/pages/AboutUs.js";
+import BlogPage from "components/pages/BlogIndex.js";
+import PricingPage from "components/pages/Pricing.js";
+import ContactPage from "components/pages/ContactUs.js";
+import LoginPage from "components/pages/Login.js";
+import SignupPage from "components/pages/Signup.js";
+import PrivacyPage from "components/pages/PrivacyPolicy.js";
+import TermsPage from "components/pages/TermsOfService.js";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 export default function App() {
