@@ -3,7 +3,7 @@ import "styles/globalStyles.css";
 import React from "react";
 import { css } from "styled-components/macro"; //eslint-disable-line
 import MainPage from "pages/index.js";
-import AboutPage from "components/pages/AboutUs.js";
+import AboutPage from "components/pages/AboutUs.jsx";
 import BlogPage from "components/pages/BlogIndex.js";
 import PricingPage from "components/pages/Pricing.js";
 import ContactPage from "components/pages/ContactUs.js";
